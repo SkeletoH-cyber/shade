@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "shademod",
+  "version": "${version}",
+  "name": "Shade Mod",
+  "description": "Добавляет враждебную Тень, которая выходит из темноты и боится солнца.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.shademod.ShadeMod"],
+    "client": ["com.example.shademod.client.ShadeModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
